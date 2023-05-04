@@ -35,6 +35,6 @@ if prompt:
 
     st.write(explanation)
     
-
     with st.expander('Explanation History'):
         st.info(explanation_memory.buffer)
+        
